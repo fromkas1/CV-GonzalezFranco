@@ -1,0 +1,243 @@
+
+/* CARACTERISTICAS GENERALES */
+
+body{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    padding: 5px;
+}
+
+
+h2{
+
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------  */
+/*HEADER Y CARACTERISTICAS */
+header{
+    
+    margin: auto;
+    width: 100%;            /* 100% Ancho y 15% ALTO*/
+    background-image:url(fondo3.jpg) ;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    margin: auto;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    
+
+}
+
+#imgCara{
+    text-align: center;
+   width: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+
+/* BARRA NAVEGACION*/
+
+nav{
+    background-color: black;
+    width: 100%;
+       
+}
+
+
+.barraNavegacion{
+    display: contents;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+   
+
+}
+
+.boton{
+    box-sizing: border-box;
+    width: 100%;
+    height: 25%;
+    padding: 5px;
+    margin: 0;
+    display:block;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+    
+
+}
+.link{
+    text-decoration: none;
+    color:black;
+    display: block;
+}
+.boton:hover{
+    background-color:darkgray;
+    color: white;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+/* MAIN CONTENIDO PRINCIPAL */
+
+.seccion1{
+    
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: white;
+    background-image: url(fondo1.jpg);
+}
+
+
+.seccion2{
+    background-image: url(fondo1.jpg);
+    color: white;
+    
+}
+
+.seccion3{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contenedores{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px){
+    .contenedores{
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    }
+ }
+
+
+.cajaExterna{
+    border: 5px solid black;
+    width: 70%;
+    float: right;
+    border-radius: 10px;
+   
+}
+
+
+#cajahtml{
+    padding: 10px;
+    width: calc(95% - 0px);
+    background-color:orangered;
+    color: white;
+    text-align: center;
+    
+}
+
+
+#cajaCss{
+    padding: 10px;
+    width: calc(85% - 0px);
+    background-color:blue;
+    color: white;
+    text-align: center;
+}
+
+
+#cajaJs{
+    padding: 10px;
+    width: calc(40% - 0px);
+    background-color:yellow;
+    color: white;
+    text-align: center;
+    
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/* FOOTER */
+
+
+.contenedorBotones{
+    display: flex;
+    justify-content: center;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.imgBotones{
+    width: 100%;
+    height: 100px;
+    padding: 0px;
+    border-radius: 25px;
+}
+
+
+.botonPie{
+    background-color:white;
+}
+
+.imgBotones:hover{
+    
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    .imgBotones{
+        height: 100%;
+    }
+}
+ 
+.boton1:hover {
+    background-color: brown;
+}
+
+.boton2:hover {
+    background-color: green;
+}
+
+.boton3:hover {
+    background-color: blue;
+}
+
+.boton4:hover{
+    background-color: red;
+}
+
+.boton5:hover{
+    background-color: white;
+}
+/*--------------------------------------------------------------------------------------------- */
+
+
